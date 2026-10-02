@@ -7,14 +7,14 @@ create any API key.
 
 Pick the page for your exchange and download the Windows or macOS build:
 
-- Bitget: https://bg.javidtrading.com/
-- Binance: https://bn.javidtrading.com/
-- OKX: https://okx.javidtrading.com/
+- Bitget: [bg.javidtrading.com](https://bg.javidtrading.com/?utm_source=github&utm_medium=repo&utm_campaign=setup)
+- Binance: [bn.javidtrading.com](https://bn.javidtrading.com/?utm_source=github&utm_medium=repo&utm_campaign=setup)
+- OKX: [okx.javidtrading.com](https://okx.javidtrading.com/?utm_source=github&utm_medium=repo&utm_campaign=setup)
 
 Unzip and start it. The build is not code-signed, so Windows SmartScreen or macOS
 Gatekeeper shows a warning on first launch. How to get past it, and the SHA-256 of each
 build so you can confirm your file matches the published one:
-https://bg.javidtrading.com/install-help
+[bg.javidtrading.com/install-help](https://bg.javidtrading.com/install-help?utm_source=github&utm_medium=repo&utm_campaign=setup)
 
 ## 2. Turn on Shadow Mode (no key needed)
 

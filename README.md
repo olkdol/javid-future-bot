@@ -8,9 +8,9 @@ Built and run by one independent developer in South Korea.
 
 | Exchange | Page and download |
 |---|---|
-| Bitget | https://bg.javidtrading.com/ |
-| Binance | https://bn.javidtrading.com/ |
-| OKX | https://okx.javidtrading.com/ |
+| Bitget | [bg.javidtrading.com](https://bg.javidtrading.com/?utm_source=github&utm_medium=repo&utm_campaign=readme) |
+| Binance | [bn.javidtrading.com](https://bn.javidtrading.com/?utm_source=github&utm_medium=repo&utm_campaign=readme) |
+| OKX | [okx.javidtrading.com](https://okx.javidtrading.com/?utm_source=github&utm_medium=repo&utm_campaign=readme) |
 | Bybit | Port finished and in testing. Not downloadable yet. |
 
 Leveraged futures can lose your entire deposit. Read [Risk](#risk) before connecting a key.
@@ -86,7 +86,7 @@ funding and slippage are not, and with those added the result would have been wo
 
 These are recalculated figures over past prices, not the trade record of a live account.
 Dashboard screenshots from a live account running an earlier build, connected to a
-different exchange, are at https://bg.javidtrading.com/results. They are a record of that
+different exchange, are at [bg.javidtrading.com/results](https://bg.javidtrading.com/results?utm_source=github&utm_medium=repo&utm_campaign=readme). They are a record of that
 account, not of this backtest.
 
 ## Installing
@@ -95,7 +95,7 @@ account, not of this backtest.
 2. Unzip and run it. The program is not code-signed, so Windows SmartScreen or macOS
    Gatekeeper warns on first launch. The steps to get past that, and the SHA-256 of each
    build so you can confirm the file you received is the one that was published, are at
-   https://bg.javidtrading.com/install-help
+   [bg.javidtrading.com/install-help](https://bg.javidtrading.com/install-help?utm_source=github&utm_medium=repo&utm_campaign=readme)
 3. Start in Shadow Mode. Connect a key only when you have seen enough.
 
 No coding is needed. It is a graphical desktop application.
