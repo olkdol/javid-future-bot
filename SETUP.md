@@ -1,36 +1,51 @@
-# JaviD Future Bot — 10‑Minute Setup Checklist
+# Setup
 
-No coding required. You need about ten minutes and a Binance account.
-Full download & written guide: https://bn.javidtrading.com/ · Help: https://t.me/+P_CukTNNKRI4ZDVl
+No coding is needed. The order below is deliberate: you can see the program run before you
+create any API key.
 
-## Step 1 — Binance account + API key
-- Create a Binance account (using the referral link on the website keeps the software free to run).
-- Open **API Management** → create a new key.
-- Grant **exactly three** permissions: **Reading**, **Spot & Margin**, **Futures** — nothing else.
-- Turn on **IP restriction**. This is a security feature: with it on, the bot **cannot** withdraw or move funds.
+## 1. Download and start
 
-## Step 2 — Download & launch
-- Download from https://bn.javidtrading.com/ and double‑click `start`.
-- The onboarding modal walks you through the first run to your dashboard.
+Pick the page for your exchange and download the Windows or macOS build:
 
-## Step 3 — Connect the API
-- Settings tab → paste your API key → **Test Connection** (green check).
-- Your keys are stored **only on your PC** — there is no server in the loop.
+- Bitget: https://bg.javidtrading.com/
+- Binance: https://bn.javidtrading.com/
+- OKX: https://okx.javidtrading.com/
 
-## Step 4 — Symbol selection
-- Symbol tab → **Select All** or **Top 20 by Turnover** → **Save**. Candle data loads.
+Unzip and start it. The build is not code-signed, so Windows SmartScreen or macOS
+Gatekeeper shows a warning on first launch. How to get past it, and the SHA-256 of each
+build so you can confirm your file matches the published one:
+https://bg.javidtrading.com/install-help
 
-## Step 5 — Investment mode
-- Choose **Aggressive (1/300)**, **Normal (1/500)**, or **Stable (1/700)**.
-- The fraction is your worst‑case single‑trade size, sized automatically. Larger denominator = safer.
+## 2. Turn on Shadow Mode (no key needed)
 
-## Step 6 — Shadow Mode first (recommended)
-- Flip **Shadow Mode ON**. It trades live Binance market data with **virtual funds — zero real risk**.
-- Watch positions, win rate, and how it handles a losing streak. Go live only when you trust it.
+Shadow Mode trades live market prices against a virtual 2,000 USDT balance. No API key, no
+identity verification, no deposit. Pick some symbols, start it, and watch how it opens,
+adds to and closes positions, including how it handles positions that move against it.
 
-## Step 7 — Run 24/7 (optional)
-- A low‑cost cloud VM (e.g. AWS) or a small always‑on mini‑PC keeps it running around the clock,
-  so the strategy can compound steadily over time.
+## 3. Create an API key, only when you want to go live
+
+On your exchange's API management page, create a key with **read** and **futures trading**
+permissions. Leave **withdrawal off**; the program never needs it. Turn on IP restriction
+if your exchange offers it. Bitget and OKX keys also need a passphrase.
+
+Paste the key into the settings tab and run the connection test. The key is stored on your
+computer only.
+
+Each exchange page has a step-by-step signup and API key guide with screenshots.
+
+## 4. Size
+
+The first entry is about 1/300 of your balance in the default mode; add-ons make the
+position larger from there. Below about
+1,000 USDT, exchange minimum order sizes and fees start to get in the way, so 1,000 USDT or
+more is recommended.
+
+## 5. Keep it running
+
+The program trades only while it is running. If you close it, open positions stay on the exchange with nothing managing them until you
+restart it; on restart the program detects them and resumes managing them. An always-on mini PC or a low-cost cloud VM keeps it running.
 
 ---
-⚠️ Not financial advice. Crypto futures are high‑risk; leverage can cause total loss (liquidation).
+
+Leveraged futures can lose your entire deposit. Not investment advice.
+Questions: https://t.me/+P_CukTNNKRI4ZDVl · support@javidtrading.com
